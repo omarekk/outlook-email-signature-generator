@@ -8,11 +8,11 @@ function createSignature() {
                     "<h2>" + name + "</h2>" + 
                     "<p>" + position + "</p>" + 
                     "<p><a href='mailto:" + email + "'>" + email + "</a></p>" +
-                    "<img src='clm midwest.png' alt='Employee image'>" +
-                    "<p>2655 Erie Street, River Grove, IL 60171</p>" +
+                    "<img src='<image>' alt='Employee image'>" +
+                    "<p>company address</p>" +
                     "<p>Office Line: " + phone + "</p>" +
-                    "<p>Main Office: 708-456-7777</p>" +
-                    "<p>Toll Free: 877-359-7788</p>" +
+                    "<p>Main Office: </p>" +
+                    "<p>Toll Free:</p>" +
                   "</div>";
   
   document.getElementById("signature").innerHTML = signature;
